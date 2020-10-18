@@ -1,3 +1,7 @@
+---
+title: Learning to Delopy Serverless Function on Netlify
+description: Easy-cheesey
+---
 Steps to delopying a serverless function using netlify:
 
 <style>
