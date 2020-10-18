@@ -31,11 +31,13 @@ Steps to delopying a serverless function using netlify:
     
     Second, create a file named "**hello.js**" inside it, and paste in the following.
 
+    ```
     exports.handler = async () => ({
         statusCode: 200,
         body: "hello world from serverless function haha!"
     })
-
+    ```
+    
     (The above code simply returns a message "hello world from serverless function haha!")
 
     Third, inside **test**, create a **netlify.toml** file to configure netlify, paste in the following:
