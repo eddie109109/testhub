@@ -97,3 +97,12 @@ Steps to delopying a serverless function using netlify:
         to = "/.netlify/functions/:splat"
         status = 200
      ```
+
+    (What the above code does it rewrites the path to /api/[your function name])
+
+    With that, you can access your serverless function is this format:
+
+    https://eddie-test.netlify.app/api/hello
+
+
+    
