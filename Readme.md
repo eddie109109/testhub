@@ -4,13 +4,6 @@ description: Easy-cheesey
 ---
 Steps to delopying a serverless function using netlify:
 
-<style>
-.code {
-    white-space: pre;
-    font-family: monospace;
-}
-</style>
-
 1. Create a folder name "**test**"
 
 2. Create a netlify account and connect it with your github account
