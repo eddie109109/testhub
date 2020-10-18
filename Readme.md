@@ -47,8 +47,10 @@ Steps to delopying a serverless function using netlify:
 
     Third, inside **test**, create a **netlify.toml** file to configure netlify, paste in the following:
 
+    ```
     [build]
     functions = "functions"
+    ```
 
     Now, save everything and keep the server running, and go to "**http://localhost:8888/.netlify/functions/hello**"
 
@@ -89,7 +91,9 @@ Steps to delopying a serverless function using netlify:
 
     On your **netlify.toml** file, add the following
 
+     ```
     [[redirects]]
         from = "/api/*"
         to = "/.netlify/functions/:splat"
         status = 200
+     ```
