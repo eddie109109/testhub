@@ -18,13 +18,13 @@ Steps to delopying a serverless function using netlify:
 3. Install netlify-cli globally by doing:
     **npm install netlify-cli -g**
 
-3. Type **netlify login** on the terminal to enter your credentials
+4. Type **netlify login** on the terminal to enter your credentials
 
-4. Insdie "**test**", create a simple html file with h1 tag as "Hello from netlify" and change the background color to display something like:
+5. Insdie "**test**", create a simple html file with h1 tag as "Hello from netlify" and change the background color to display something like:
 
     ![alt text](./images/test.png "image")
 
-5. Next you need to test it before deploying to netlify to see if it works by typing:
+6. Next you need to test it before deploying to netlify to see if it works by typing:
 
     **netlify dev**
 
@@ -32,7 +32,7 @@ Steps to delopying a serverless function using netlify:
 
     Now on "http://localhost:8888", you should still see the above screen
 
-6. Creat your first serverless function on netlify
+7. Creat your first serverless function on netlify
 
     First, create a folder name "**functions**".
     
@@ -75,7 +75,7 @@ Steps to delopying a serverless function using netlify:
 
     Website URL:       https://eddie-test.netlify.app
 
-7. Accessing your serverless function on netlify.
+8. Accessing your serverless function on netlify.
 
     Netlify serverless functions are normally have the following url path: 
 
@@ -85,7 +85,7 @@ Steps to delopying a serverless function using netlify:
 
     The above path should take you to your serverless function:
 
-    ![alt text](./images/renderServerless.png "image")
+    ![alt text](./images/renderScreen.png "image")
 
     However, that url path does not seem too professional, we can do some rewrites to it.
 
