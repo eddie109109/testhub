@@ -37,7 +37,7 @@ Steps to delopying a serverless function using netlify:
         body: "hello world from serverless function haha!"
     })
     ```
-    
+
     (The above code simply returns a message "hello world from serverless function haha!")
 
     Third, inside **test**, create a **netlify.toml** file to configure netlify, paste in the following:
@@ -93,7 +93,7 @@ Steps to delopying a serverless function using netlify:
         status = 200
      ```
 
-    (What the above code does it rewrites the path to /api/[your function name])
+    (What the above code does is it rewrites the path to /api/[your function name])
 
     With that, you can access your serverless function is this format:
 

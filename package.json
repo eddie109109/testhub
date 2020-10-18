@@ -1,0 +1,27 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "--- title: Learning to Delopy Serverless Function on Netlify description: Easy-cheesey --- Steps to delopying a serverless function using netlify:",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "develop": "gatsby develop",
+        "build": "gatsby build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eddie109109/testhub.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/eddie109109/testhub/issues"
+    },
+    "homepage": "https://github.com/eddie109109/testhub#readme",
+    "dependencies": {
+        "gatsby": "^2.24.80",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0"
+    }
+}
