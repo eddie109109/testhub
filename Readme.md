@@ -34,21 +34,17 @@ Steps to delopying a serverless function using netlify:
     
     Second, create a file named "**hello.js**" inside it, and paste in the following.
 
-    <div class="code">
     exports.handler = async () => ({
         statusCode: 200,
         body: "hello world from serverless function haha!"
     })
-    </div>
 
     (The above code simply returns a message "hello world from serverless function haha!")
 
     Third, inside **test**, create a **netlify.toml** file to configure netlify, paste in the following:
 
-    <div class="code">
     [build]
     functions = "functions"
-    </div>
 
     Now, save everything and keep the server running, and go to "**http://localhost:8888/.netlify/functions/hello**"
 
@@ -89,9 +85,7 @@ Steps to delopying a serverless function using netlify:
 
     On your **netlify.toml** file, add the following
 
-    <div class="code">
     [[redirects]]
         from = "/api/*"
         to = "/.netlify/functions/:splat"
         status = 200
-    </div>
